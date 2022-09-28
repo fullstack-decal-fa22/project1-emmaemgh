@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta name="author" content="Emma Holt">
+        <meta name="description" content="Emma's Personal Website">
+        <title>Emma's Website</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="name">Emma Holt</h1>
+        </div>
+
+        
+        <br>
+        <div class="about">
+            <div id="about-header">
+                <h3>About Me!</h3>
+            </div>
+            <div id="about-text">I'm currently a junior at UC Berkeley majoring in Computer Science. My current focus is artifical intelligence and back-end engineering, but I'm determined to become a front-end wizard as well. When I'm not staring at a computer screen, I enjoy surfing, cooking, and the outdoors!</div>
+            <div><img src="EmmaHolt.JPG" alt="my picture" height="200"/></div>
+        </div>
+        <br>
+        
+        <br>
+        <br>
+        <br>
+        <div class="contact">
+            <div id="contact-header">
+                <h3>Contact Information</h3>
+            </div>
+            <div class="contact-info">
+                <h5>Email: emmaemgh@gmail.com</h5>
+                <h5>Phone Number: 310-776-0839</h5>
+                <a target="_blank" href="https://www.linkedin.com/in/emmagholt/"><h5>My Linkedin</h5></a>
+            </div>
+            <form>
+                <h6>Send me your info!</h6>
+                <label>Name:</label>
+                <input type="text" id="name">
+                <br>
+                <br>
+                <label>Email:</label>
+                <input type="text" id="email">
+                <br>
+                <br>
+                <input type="submit">
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="work">
+            <div id="work-header">
+                <h2>My Work</h2>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item 1">
+                    <h4 class="project-header">DNA Analysis Project</h4>
+                    <img src="genes.JPG" height="200" width = "100"/>
+                    <p class="project-text">I used an R package called DESeq to analyze mice RNA sequences in order to pinpoint genes frequently involved with heart failure.</p>
+                </div>
+                <div class="grid-item 2">
+                    <h4 class="project-header">Summer 2022 SWE Intern</h4>
+                    <img src="attentive.png" height="200" width = "100"/>
+                    <p class="project-text">As a SWE intern at Attentive Mobile, I worked on 2 projects. The first was assisting in the structural transition from Maven to Gradle. The second was building endpoints and wrapper functions between two backend APIs.</p>
+                </div>
+                <div class="grid-item 3">
+                    <h4 class="project-header">Skeyeon Consulting Project</h4>
+                    <iframe src="Skeyeon_white_paper.pdf" width="100%" height="500px">
+                    </iframe>
+                    <p class="project-text">I was the CS Project Lead at Gauntlet Consulting Club, and we worked with a satellite startup called Skeyeon in analyzing image compression. We put together a white paper (shown above) on lossless and lossy image compression, as well as running different compression algorithms on satellite images to find the best compression ratio.</p>
+                </div>
+                <div class="grid-item 4">
+                    <h4 class="project-header">Elear Solutions Consulting Project</h4>
+                    <img src="elear.png" height="200" width = "100"/>
+                    <p class="project-text">With Gauntlet Consulting club, I worked on a consulting team that built a python wrapper for Elear's C++ API to allow developers to interact with the API in python.</p>
+                </div>
+                <div class="grid-item 5">
+                    <h4 class="project-header">IOS Developer Intern for Berkeley Pharma Tech</h4>
+                    <img src="bpt.png" height="100" width = "400"/>
+                    <p class="project-text">As a game developer intern for BPT, I launched the virus shooter app in IOS using Unity and Xcode.</p>
+                </div>
+                <div class="grid-item 6">
+                    <h4 class="project-header">Gauntlet Consulting Website Developer</h4>
+                    <iframe src="https://gcberkeley.com/" height="300px" width = "100%"></iframe>
+                    <p class="project-text">I was the website developer for the Gauntlet Consulting website for 2 years, using Wordpress and Javascript.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <br> 
+        <button onclick="alert('Welcome to my Website!!!')">Click here for a message!</button> 
+        <br>
+        
+    </body>
+</html>
